@@ -1,0 +1,50 @@
+.app__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.movie__container{
+    width: 390px;
+    margin: 10px;
+    background-color: #000000;
+    color: white;   
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.movie__container img{
+    max-width: 100%;
+}
+
+.movie__info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px 20px;
+    align-items: center;
+}
+
+.movie__info span{
+    color: #f9e449;
+}
+
+
+.movie__overview{
+    height: 50%;
+    width: 50%;
+    padding: 20px;
+    border-radius: 20px;
+    color: #fff;
+    background-color: black;
+    font-size: 1.3rem;
+}
+
+.movie__overview h2{
+    text-align: center;
+}
+
+.movie__overview p{
+    text-align: center;
+}
