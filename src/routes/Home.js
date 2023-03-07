@@ -4,7 +4,6 @@ import Movie from "../components/Movie";
 function Home() {
   return (
     <div>
-       
       <div className="app-container">
         {
           dummy.results.map((dummy)=>{
