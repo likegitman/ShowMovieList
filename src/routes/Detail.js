@@ -9,7 +9,6 @@ function Detail() {
   console.log(movieList);
   return (
     <div>
-
       {movieList.map((movie) => (
         <Overview
           key={movie.id}
